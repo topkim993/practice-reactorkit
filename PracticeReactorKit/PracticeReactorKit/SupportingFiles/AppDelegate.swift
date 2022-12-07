@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   ) -> Bool {
     let window = UIWindow(frame: UIScreen.main.bounds)
     self.window = window
-    window.rootViewController = ViewController()
+    window.rootViewController = LoginViewController()
     window.makeKeyAndVisible()
     self.window = window
     return true
