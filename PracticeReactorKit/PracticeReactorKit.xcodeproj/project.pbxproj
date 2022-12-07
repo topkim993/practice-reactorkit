@@ -17,6 +17,7 @@
 		4AB6D3D8294008B6001067E8 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB6D3D7294008B6001067E8 /* RxRelay */; };
 		4AB6D3DA294008B6001067E8 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB6D3D9294008B6001067E8 /* RxSwift */; };
 		4AB6D3DD294008D3001067E8 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB6D3DC294008D3001067E8 /* Then */; };
+		4AB6D3E1294011C5001067E8 /* LoginViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6D3E0294011C5001067E8 /* LoginViewReactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4AB6D3C2294004E4001067E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AB6D3C5294004E4001067E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AB6D3C7294004E4001067E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB6D3E0294011C5001067E8 /* LoginViewReactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewReactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			children = (
 				4AB6D3CD29400528001067E8 /* SupportingFiles */,
 				4AB6D3BD294004E3001067E8 /* ViewController.swift */,
+				4AB6D3E0294011C5001067E8 /* LoginViewReactor.swift */,
 			);
 			path = PracticeReactorKit;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				4AB6D3BE294004E3001067E8 /* ViewController.swift in Sources */,
 				4AB6D3BA294004E3001067E8 /* AppDelegate.swift in Sources */,
+				4AB6D3E1294011C5001067E8 /* LoginViewReactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
