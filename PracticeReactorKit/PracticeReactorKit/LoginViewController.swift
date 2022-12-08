@@ -79,18 +79,18 @@ class LoginViewController: UIViewController, View {
   func bind(reactor: Reactor) {
     idTextField.rx.text
       .compactMap { $0 }
-      .map { LoginViewReactor.Action.updateID($0) }
+      .map { Reactor.Action.updateID($0) }
       .bind(to: reactor.action)
       .disposed(by: disposeBag)
     
     passwordTextField.rx.text
       .compactMap { $0 }
-      .map { LoginViewReactor.Action.updatePassword($0) }
+      .map { Reactor.Action.updatePassword($0) }
       .bind(to: reactor.action)
       .disposed(by: disposeBag)
     
     loginButton.rx.tap
-      .map { LoginViewReactor.Action.login }
+      .map { Reactor.Action.login }
       .bind(to: reactor.action)
       .disposed(by: disposeBag)
     
