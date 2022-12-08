@@ -31,7 +31,7 @@ extension LoginViewReactor {
     var isLoading = false
     var id = ""
     var password = ""
-    var isLogined = false
+    @Pulse var isLogined = false
   }
 }
 
@@ -87,11 +87,5 @@ extension LoginViewReactor {
         .milliseconds(500),
         scheduler: MainScheduler.instance
       )
-  }
-}
-
-fileprivate extension Bool {
-  func not() -> Bool {
-    return !self
   }
 }
